@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+let sum = 0;
+let count = 0;
+for (let i =0; i<1000; i++){
+    if (count<30){
+        if (i%7 ===0){
+            count ++;
+            sum += i;
+            document.writeln(i + "<br>");
+        }
+    }else {
+        break;
+    }
+}
+document.writeln("tổng = " + sum);
+
+</script>
